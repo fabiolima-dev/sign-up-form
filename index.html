@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="flex flex-col md:flex-row">
+    <div class="flex flex-col items-center justify-between h-80 w-screen md:h-screen md:w-2/5 bg-cover bg-center" style="background-image: url(./image.jpg)">
+        <div class="w-full h-1/2 md:h-1/5 bg-black opacity-80 mt-10 md:mt-40 flex justify-center items-center">
+            <h1 class="text-white text-7xl">LOGO</h1>
+        </div>
+        <p class="w-screen md:w-2/5 text-white text-center mb-2">Photo by <a class="underline" target=_blank href="https://unsplash.com/photos/fsL1HenYK8A">Halie West</a> on <a class="underline" target=_blank href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="w-screen md:h-screen md:w-3/5 bg-gray-100 flex flex-col justify-center">
+        <h2 class="mx-10 mr-32 text-xl font-bold my-5 mt-10">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</h2>
+        <h2 class="mx-10 mr-32 text-xl font-bold mb-14 mt-5">You <em>know</em> you want to.</h2>
+        <form>
+            <div class="bg-white p-10 drop-shadow-md my-5">
+                <h2 class="text-xl font-bold my-2">Let's do this!</h2>
+                <div class="flex flex-wrap max-w-2xl">
+                    <div class="mr-20 my-2">
+                        <label class="text-sm flex flex-col" for="item1">FIRST NAME</label>
+                        <input class="border-2 rounded-sm" type="text" id="item1">
+                    </div>
+                    <div class="my-2">
+                        <label class="text-sm flex flex-col" for="item4">LAST NAME</label>
+                        <input class="border-2 rounded-sm focus:border-blue-400 focus:drop-shadow-sm focus:outline-none" type="text" id="item4">
+                    </div>
+                    <div class="mr-20 my-2">
+                        <label class="text-sm flex flex-col" for="item2">EMAIL</label>
+                        <input class="border-2 rounded-sm" type="text" id="item2">
+                    </div>
+                    <div class="my-2">   
+                        <label class="text-sm flex flex-col" for="item5">PHONE NUMBER</label>
+                        <input class="border-2 rounded-sm" type="text" id="item5">
+                    </div>
+                    <div class="mr-20 my-2">
+                        <label class="text-sm flex flex-col" for="item3">PASSWORD</label>
+                        <input class="border-2 rounded-sm" type="text" id="item3">
+                    </div>
+                    <div class="my-2">
+                        <label class="text-sm flex flex-col" for="item6">CONFIRM PASSWORD</label>
+                        <input class="border-2 rounded-sm" type="text" id="item6">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="bg-green-800 text-white rounded-lg w-52 h-12 font-bold mx-10 my-5">Create Account</button>
+            <p class="mx-10 my-5">Already have an account? <a href="#" class="text-green-800">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
